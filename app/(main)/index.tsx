@@ -100,6 +100,9 @@ const TodoListScreen = () => {
       onPress={() => router.push(`/detail/${item.id}`)} // Navigate to the detail page of the item
       className={`p-4 m-2 rounded-lg ${stateColors[item.state]}`}
     >
+      <Text className="text-sm font-bold underline text-white">
+        {item.state}
+      </Text>
       <Text className="text-lg font-bold text-white">{item.title}</Text>
       <Text className="text-sm text-white">{item.content}</Text>
       <Text className="text-sm text-white">
@@ -112,7 +115,7 @@ const TodoListScreen = () => {
   return (
     <SafeAreaView className="flex-1 ">
       <View className="p-4 flex-1 ">
-        <Text className="text-xl font-bold mb-12">To-Do List</Text>
+        <Text className="text-xl font-bold mb-12">Plan List</Text>
         {todos.length > 0 ? (
           <FlatList
             data={todos}
@@ -124,10 +127,10 @@ const TodoListScreen = () => {
         )}
       </View>
       <TouchableOpacity
-        className="p-4 bg-blue-500 rounded-lg m-4"
+        className="p-4 bg-blue-500 rounded-lg m-4 mx-20"
         onPress={() => router.push("/(main)/createTodoScreen")}
       >
-        <Text className="text-white text-center">Create New To-Do</Text>
+        <Text className="text-white text-center">What's new ?</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );

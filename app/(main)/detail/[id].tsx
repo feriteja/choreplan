@@ -135,7 +135,7 @@ const DetailTodoScreen = () => {
 
   return (
     <SafeAreaView className="flex-1 p-4">
-      <Text className="text-2xl font-bold mb-4">To-Do Details</Text>
+      <Text className="text-2xl font-bold mb-4">Plan Details</Text>
       <View className="mb-4">
         <Text className="text-lg">Title:</Text>
         <TextInput
@@ -186,7 +186,7 @@ const DetailTodoScreen = () => {
 
       {/* State Change Buttons */}
       <View className="mb-4">
-        <Text className="text-lg mb-2">Change To-Do State:</Text>
+        <Text className="text-lg mb-2">Change Plan State:</Text>
         <View className="flex-row justify-between">
           <TouchableOpacity
             className="p-2 bg-gray-500 rounded-lg"
@@ -223,7 +223,7 @@ const DetailTodoScreen = () => {
           onPress={confirmDelete}
           className="bg-red-600 justify-center items-center py-3 rounded-md mt-4"
         >
-          <Text className="text-white">Delete To-Do</Text>
+          <Text className="text-white">Delete Plan</Text>
         </Pressable>
       </View>
     </SafeAreaView>

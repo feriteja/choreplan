@@ -53,7 +53,7 @@ const CreateTodoScreen = () => {
 
   return (
     <SafeAreaView className="flex-1 p-4">
-      <Text className="text-2xl font-bold mb-4">Create New To-Do</Text>
+      <Text className="text-2xl font-bold mb-4">Let's set the goal</Text>
       <View className="mb-4">
         <Text className="text-lg">Title:</Text>
         <TextInput
@@ -87,10 +87,10 @@ const CreateTodoScreen = () => {
       </View>
 
       <TouchableOpacity
-        className="p-4 bg-blue-500 rounded-lg"
+        className="px-4 py-3 bg-blue-500 rounded-xl"
         onPress={saveTodo}
       >
-        <Text className="text-white text-center">Save To-Do</Text>
+        <Text className="text-white text-center">Save It!</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
