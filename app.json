@@ -2,7 +2,7 @@
   "expo": {
     "name": "choreplan",
     "slug": "choreplan",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icon": "./assets/icon_app.png",   
     "orientation": "portrait", 
     "scheme": "myapp",
@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/icon_app.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.feriteja.choreplan"
+      "package": "com.feriteja.choreplan",
+      "versionCode": 3
     },
     "web": {
       "bundler": "metro",
