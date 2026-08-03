@@ -2,9 +2,9 @@
   "expo": {
     "name": "choreplan",
     "slug": "choreplan",
-    "version": "1.0.2",
-    "icon": "./assets/icon_app.png",   
-    "orientation": "portrait", 
+    "version": "1.0.3",
+    "icon": "./assets/icon_app.png",
+    "orientation": "portrait",
     "scheme": "myapp",
     "ios": {
       "supportsTablet": true
@@ -15,7 +15,8 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.feriteja.choreplan",
-      "versionCode": 3
+      "versionCode": 3,
+      "targetSdkVersion": 36
     },
     "web": {
       "bundler": "metro",
